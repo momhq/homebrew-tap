@@ -1,7 +1,8 @@
 class Mom < Formula
   desc "Memory Oriented Machine — persistent memory for AI agents"
   homepage "https://github.com/momhq/mom"
-  url "https://github.com/momhq/mom/archive/refs/tags/v#{version}.tar.gz"
+  url "https://github.com/momhq/mom/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "b7016395d8cc94f51aaddd2b7fc0538fb9058d78cb410f91689b155e23ee2124"
   license "Apache-2.0"
 
   bottle :unneeded
