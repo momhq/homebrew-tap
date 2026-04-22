@@ -5,8 +5,6 @@ class Mom < Formula
   sha256 "b7016395d8cc94f51aaddd2b7fc0538fb9058d78cb410f91689b155e23ee2124"
   license "Apache-2.0"
 
-  bottle :unneeded
-
   depends_on "go" => :build
 
   def install
