@@ -8,13 +8,10 @@ class Mom < Formula
   depends_on "go" => :build
 
   def install
-    cd "cli" do
-      system "go", "build",
-        "-o", "#{bin}/mom",
-        "-ldflags", "-s -w -X github.com/momhq/mom/cli/internal/cmd.Version=#{version}",
-        "./cmd/mom"
-    end
-    bin.install_symlink "mom" => "leo"
+    system "go", "build",
+      "-o", "#{bin}/mom",
+      "-ldflags", "-s -w -X github.com/momhq/mom/ingress/cli.Version=#{version}",
+      "./cmd/mom"
   end
 
   test do
