@@ -1,8 +1,8 @@
 class Mom < Formula
   desc "Memory Oriented Machine — persistent memory for AI agents"
   homepage "https://github.com/momhq/mom"
-  url "https://github.com/momhq/mom/archive/refs/tags/v0.50.0-alpha.tar.gz"
-  sha256 "2f7a04304750abafafa24f06dcf52bf4b2a7e373efb0f761f19431257211893c"
+  url "https://github.com/momhq/mom/archive/refs/tags/v0.50.1-alpha.tar.gz"
+  sha256 "d04fd4f1b2a02053fbbdf963a057cddb9b8a2ec4feb93c10263f17176a9e4c27"
   license "Apache-2.0"
 
   depends_on "go" => :build
